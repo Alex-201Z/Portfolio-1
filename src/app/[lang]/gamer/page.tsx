@@ -250,3 +250,4 @@ function GamerProfileSkeleton() {
       </div>
     );
   }
+// Forcer le redéploiement pour prendre en compte les permissions IAM
