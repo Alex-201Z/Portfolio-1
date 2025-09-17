@@ -3,6 +3,7 @@
 import { getProfileData as getRiotProfile, type GamerProfile as RiotGamerProfile } from "@/services/riot";
 import { getSteamProfile, type SteamProfile } from "@/services/steam";
 
+
 interface CombinedGamerProfile {
     riot?: RiotGamerProfile;
     steam?: SteamProfile;
@@ -15,6 +16,13 @@ interface ActionResult {
 }
 
 export async function getGamerProfiles(): Promise<ActionResult> {
+   // --- DÉBUT DES MODIFICATIONS ---
+    console.log("Vérification des variables d'environnement...");
+    console.log("RIOT_API_KEY présente:", !!process.env.RIOT_API_KEY);
+    console.log("STEAM_API_KEY présente:", !!process.env.STEAM_API_KEY);
+    console.log("STEAM_ID présent:", !!process.env.STEAM_ID);
+    // --- FIN DES MODIFICATIONS ---
+
     try {
         // Utilise Promise.allSettled pour ne pas bloquer si une API échoue
         const [riotResult, steamResult] = await Promise.allSettled([
