@@ -11,7 +11,7 @@ const firebaseConfig = {
   "projectId": "career-quest-wkb6l",
   "appId": "1:766253540873:web:0927e48254543fedfa3ad8",
   "storageBucket": "career-quest-wkb6l.firebasestorage.app",
-  "apiKey": "",
+  "apiKey": "AIzaSyCNSgoyExZzuGajYjVsoZmeBrulHSY3gec",
   "authDomain": "career-quest-wkb6l.firebaseapp.com",
   "measurementId": "",
   "messagingSenderId": "766253540873"
