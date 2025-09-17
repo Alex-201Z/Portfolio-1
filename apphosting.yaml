@@ -5,6 +5,9 @@ runConfig:
   # Increase this value if you'd like to automatically spin up
   # more instances in response to increased traffic.
   maxInstances: 1
+  # AJOUTEZ LA LIGNE SUIVANTE :
+  serviceAccount: firebase-app-hosting-compute@career-quest-wkb6l.iam.gserviceaccount.com
+
 # Ajout de la section pour les variables d'environnement et les secrets
 environmentVariables:
   # Vous pouvez ajouter ici des variables non secrètes si nécessaire
@@ -17,5 +20,5 @@ secretEnvironmentVariables:
     secret: STEAM_API_KEY
   - key: STEAM_ID
     secret: STEAM_ID
-  - key: GOOGLE_API_KEY # Assurez-vous d'utiliser ce nom pour Gemini
+  - key: GOOGLE_API_KEY
     secret: GOOGLE_API_KEY
