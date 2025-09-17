@@ -1,0 +1,127 @@
+
+{
+    "header": {
+        "home": "Accueil",
+        "projects": "Projets",
+        "skills": "Compétences",
+        "parcours": "Parcours",
+        "contact": "Contact",
+        "gamer": "Gamer",
+        "login": "Connexion",
+        "logout": "Déconnexion",
+        "ideaGenerator": "Idées de Projets",
+        "portfolioManagement": "Projets",
+        "skillsManagement": "Compétences",
+        "importGithub": "Importer"
+    },
+    "home": {
+        "jobTitle": "Développeur Junior en Alternance",
+        "description": "Actuellement en deuxième année de BTS SIO, je suis passionné par le développement et la création de solutions web élégantes et performantes.",
+        "projectsButton": "Voir mes projets",
+        "contactButton": "Contactez-moi",
+        "cvButton": "Télécharger le CV",
+        "animatedText": [
+            "Initialisation du profil...",
+            "Chargement des compétences...",
+            "Compilation des projets...",
+            "Prêt pour de nouvelles opportunités."
+        ]
+    },
+    "projects": {
+        "title": "Mes Projets",
+        "subtitle": "Une sélection de mon travail. Chaque projet est une histoire de défis, d'apprentissage et de création."
+    },
+    "skills": {
+        "title": "Mes Compétences",
+        "subtitle": "Un ensemble de technologies et d'outils avec lesquels je travaille pour donner vie à des idées."
+    },
+    "parcours": {
+        "title": "Mon Parcours",
+        "subtitle": "Une chronologie de mes expériences professionnelles et de ma formation.",
+        "experience": "Expériences",
+        "education": "Formations"
+    },
+    "contact": {
+        "title": "Contactez-moi",
+        "subtitle": "Une opportunité, un projet, ou simplement envie de discuter ? Voici comment me joindre.",
+        "heading": "Construisons quelque chose ensemble.",
+        "description": "Je suis actuellement à la recherche d'une alternance et ouvert à de nouvelles opportunités. Que vous ayez une idée claire ou juste un concept, n'hésitez pas à m'écrire. Je suis toujours enthousiaste à l'idée de collaborer sur des projets innovants.",
+        "availability": "Recherche une alternance",
+        "form": {
+            "nameLabel": "Nom",
+            "namePlaceholder": "Alex Ondo",
+            "emailLabel": "Email",
+            "emailPlaceholder": "alex.ondo@exemple.com",
+            "messageLabel": "Votre Message",
+            "messagePlaceholder": "N'hésitez pas à m'écrire un message ici...",
+            "sendButton": "Envoyer le message",
+            "sendingButton": "Envoi en cours...",
+            "aiAssistant": {
+                "title": "Assistant IA",
+                "thinking": "L'IA est en train de formuler une réponse..."
+            }
+        }
+    },
+    "projectDetail": {
+        "backButton": "Retour aux Projets",
+        "aboutTitle": "À propos du projet",
+        "contributionsTitle": "Mes contributions",
+        "challengesTitle": "Défis techniques",
+        "codeSnippetTitle": "Extrait de code",
+        "codeSnippetDescription": "Voici un exemple de code {language} du projet :"
+    },
+    "gamer": {
+        "title": "Profil Gamer",
+        "subtitle": "Quand je ne code pas, vous pouvez me trouver sur diverses plateformes de jeu.",
+        "platforms": {
+            "riot": "League of Legends",
+            "steam": "Steam"
+        },
+        "stats": {
+            "winrate": "Taux de victoire",
+            "wins": "Victoires",
+            "losses": "Défaites"
+        },
+        "champions": {
+            "title": "Top Champions",
+            "games": "parties"
+        },
+        "steam": {
+            "level": "Niveau {level}",
+            "gamesOwned": "{count} jeux possédés",
+            "mostPlayed": "Jeux les plus joués",
+            "playtime": "{hours} heures de jeu"
+        },
+        "error": {
+            "title": "Impossible de charger les profils",
+            "message": "Un problème est survenu lors de la récupération des données. Veuillez vérifier si les clés d'API nécessaires sont correctement configurées."
+        }
+    },
+    "portfolioManager": {
+        "newProjectTitle": "Ajouter un nouveau projet",
+        "editProjectTitle": "Modifier le projet : {title}",
+        "inProgress": "Page en construction. Le formulaire d'édition sera bientôt disponible ici.",
+        "form": {
+            "titleLabel": "Titre du projet",
+            "titlePlaceholder": "ex: Mon Super Projet",
+            "descriptionLabel": "Description courte",
+            "descriptionPlaceholder": "Un résumé du projet en une phrase.",
+            "codeLanguageLabel": "Langage du code",
+            "codeLanguagePlaceholder": "ex: jsx, javascript, css",
+            "tagsLabel": "Tags",
+            "tagsPlaceholder": "ex: React, Next.js, Firebase (séparés par des virgules)",
+            "githubUrlLabel": "URL GitHub",
+            "githubUrlPlaceholder": "Optionnel : Lien vers le dépôt GitHub.",
+            "submitButton": "Ajouter le projet",
+            "updateButton": "Mettre à jour le projet",
+            "cancelButton": "Annuler",
+            "submittingButton": "Enregistrement..."
+        },
+        "deleteProject": {
+            "title": "Êtes-vous sûr ?",
+            "description": "Cette action est irréversible. Le projet sera définitivement supprimé de la base de données.",
+            "cancel": "Annuler",
+            "confirm": "Supprimer"
+        }
+    }
+}

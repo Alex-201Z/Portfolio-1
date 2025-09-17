@@ -1,0 +1,126 @@
+{
+    "header": {
+        "home": "Home",
+        "projects": "Projects",
+        "skills": "Skills",
+        "parcours": "Journey",
+        "contact": "Contact",
+        "gamer": "Gamer",
+        "login": "Login",
+        "logout": "Logout",
+        "ideaGenerator": "Project Ideas",
+        "portfolioManagement": "Projects",
+        "skillsManagement": "Skills",
+        "importGithub": "Import"
+    },
+    "home": {
+        "jobTitle": "Junior Developer looking for an Apprenticeship",
+        "description": "Currently in my second year of a BTS SIO, I am passionate about development and creating elegant and efficient web solutions.",
+        "projectsButton": "See my projects",
+        "contactButton": "Contact me",
+        "cvButton": "Download CV",
+        "animatedText": [
+            "Initializing profile...",
+            "Loading skills...",
+            "Compiling projects...",
+            "Ready for new opportunities."
+        ]
+    },
+    "projects": {
+        "title": "My Projects",
+        "subtitle": "A selection of my work. Each project is a story of challenges, learning, and creation."
+    },
+    "skills": {
+        "title": "My Skillset",
+        "subtitle": "A collection of technologies and tools I work with to bring ideas to life."
+    },
+    "parcours": {
+        "title": "My Journey",
+        "subtitle": "A timeline of my professional experience and education.",
+        "experience": "Experience",
+        "education": "Education"
+    },
+    "contact": {
+        "title": "Contact me",
+        "subtitle": "Have an opportunity, a project, or just want to chat? Here's how to reach me.",
+        "heading": "Let's build something together.",
+        "description": "I am currently looking for an apprenticeship and open to new opportunities. Whether you have a clear idea or just a concept, don't hesitate to write to me. I am always excited to collaborate on innovative projects.",
+        "availability": "Looking for an apprenticeship",
+        "form": {
+            "nameLabel": "Name",
+            "namePlaceholder": "Alex Ondo",
+            "emailLabel": "Email",
+            "emailPlaceholder": "alex.ondo@example.com",
+            "messageLabel": "Your Question or Message",
+            "messagePlaceholder": "Feel free to write me a message here...",
+            "sendButton": "Send Message",
+            "sendingButton": "Sending...",
+            "aiAssistant": {
+                "title": "AI Assistant",
+                "thinking": "The AI is formulating a response..."
+            }
+        }
+    },
+    "projectDetail": {
+        "backButton": "Back to Projects",
+        "aboutTitle": "About the Project",
+        "contributionsTitle": "My Contributions",
+        "challengesTitle": "Technical Challenges",
+        "codeSnippetTitle": "Code Snippet",
+        "codeSnippetDescription": "Here's a sample of the {language} code from the project:"
+    },
+    "gamer": {
+        "title": "Could not load profiles",
+        "subtitle": "When I'm not coding, you can find me on various gaming platforms.",
+        "platforms": {
+            "riot": "League of Legends",
+            "steam": "Steam"
+        },
+        "stats": {
+            "winrate": "Winrate",
+            "wins": "Wins",
+            "losses": "Losses"
+        },
+        "champions": {
+            "title": "Top Champions",
+            "games": "games"
+        },
+        "steam": {
+            "level": "Level {level}",
+            "gamesOwned": "{count} games owned",
+            "mostPlayed": "Most Played Games",
+            "playtime": "{hours} hours played"
+        },
+        "error": {
+            "title": "Could not load profiles",
+            "message": "There was an issue fetching the data. Please check if the required API keys are configured correctly."
+        }
+    },
+    "portfolioManager": {
+        "newProjectTitle": "Add New Project",
+        "editProjectTitle": "Edit Project: {title}",
+        "inProgress": "Page under construction. The edit form will be available here soon.",
+        "form": {
+            "titleLabel": "Project Title",
+            "titlePlaceholder": "e.g., My Awesome App",
+            "descriptionLabel": "Short Description",
+            "descriptionPlaceholder": "A one-sentence summary of the project.",
+            "codeLanguageLabel": "Code Language",
+            "codeLanguagePlaceholder": "e.g., jsx, javascript, css",
+            "tagsLabel": "Tags",
+            "tagsPlaceholder": "e.g., React, Next.js, Firebase (comma-separated)",
+            "githubUrlLabel": "GitHub URL",
+            "githubUrlPlaceholder": "Optional: Link to the GitHub repository.",
+            "submitButton": "Save Project",
+            "updateButton": "Update Project",
+            "cancelButton": "Cancel",
+            "submittingButton": "Saving..."
+        },
+        "deleteProject": {
+            "title": "Are you sure?",
+            "description": "This action cannot be undone. This will permanently delete the project from the database.",
+            "cancel": "Cancel",
+            "confirm": "Delete"
+        }
+    }
+}
