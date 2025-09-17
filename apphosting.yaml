@@ -22,3 +22,5 @@ secretEnvironmentVariables:
     secret: STEAM_ID
   - key: GOOGLE_API_KEY
     secret: GOOGLE_API_KEY
+
+# Ajoutez d'autres sections de configuration si nécessaire
