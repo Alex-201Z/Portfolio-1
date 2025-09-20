@@ -16,6 +16,6 @@ secretEnvironmentVariables:
   - key: STEAM_API_KEY
     secret: projects/766253540873/secrets/STEAM_API_KEY # Chemin complet du secret avec l'ID numérique
   - key: STEAM_ID
-    secret: projects/766253540873/secrets/STEAM_ID     # Chemin complet du secret avec l'ID numérique
+    secret: projects/766253540873/secrets/STEAM_ID   # Chemin complet du secret avec l'ID numérique
   - key: GOOGLE_API_KEY
     secret: projects/766253540873/secrets/GOOGLE_API_KEY # Chemin complet du secret avec l'ID numérique
