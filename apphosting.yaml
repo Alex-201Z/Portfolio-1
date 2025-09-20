@@ -25,3 +25,4 @@ secretEnvironmentVariables:
 
 # Ajoutez d'autres sections de configuration si nécessaire
 # resources:
+#   cpu: 1
