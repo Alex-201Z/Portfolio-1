@@ -19,6 +19,10 @@ export interface SteamProfile {
 
 const STEAM_API_KEY = process.env.STEAM_API_KEY;
 const STEAM_ID = process.env.STEAM_ID;
+
+// DEBUG: Affiche la valeur des clés API au démarrage (à retirer en production)
+console.log('DEBUG STEAM_API_KEY:', STEAM_API_KEY ? '[OK]' : '[NON TROUVÉ]');
+console.log('DEBUG STEAM_ID:', STEAM_ID ? '[OK]' : '[NON TROUVÉ]');
 const API_BASE_URL = "https://api.steampowered.com";
 
 
