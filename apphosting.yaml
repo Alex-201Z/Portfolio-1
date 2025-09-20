@@ -24,3 +24,4 @@ secretEnvironmentVariables:
     secret: GOOGLE_API_KEY
 
 # Ajoutez d'autres sections de configuration si nécessaire
+# resources:
