@@ -194,7 +194,7 @@ function SteamProfileComponent({ profile, t }: { profile: SteamProfile, t: any }
              <div>
                 <h3 className="text-2xl font-headline text-primary text-glow mb-4 text-center">{t.steam.mostPlayed}</h3>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                    {profile.games.slice(0, 6).map(game => (
+                    {profile.games.slice(0, 12).map(game => (
                         <Card key={game.appid} className="bg-secondary/30 overflow-hidden group">
                            <CardContent className="p-4 flex items-center gap-4">
                                 <Image 
